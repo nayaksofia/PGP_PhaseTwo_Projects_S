@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Fill Up Form</title>
+</head>
+<body>
+	<div align="justify">
+		<h1>Please Fill Up This Form</h1>
+		<form action="ServletOne" method="post">
+			Enter Your Name: <input type="text" placeholder="Enter Your Name"
+				name="personname"><br><br>
+				
+			Enter Your Age: <input type="number" placeholder="Your Age" name="personage"> <br>
+			<br>
+			<!-- Radio Buttons -->
+			<p>Please Select Your Gender:</p>
+			<input type="radio" name="gender"> <label for="male">Male</label><br>
+			<br> <input type="radio" name="gender"> <label
+				for="female">Female</label><br> <br> <input type="radio"
+				name="gender"> <label for="other">Other</label><br> <br>
+			<!-- Check Boxes -->
+			<p>Please Select Your Course To Enroll:</p>
+
+			<input type="checkbox" name="course"> <label for="cs1">Computer
+				Science</label><br> <br> <input type="checkbox" name="course">
+			<label for="cs2">Electronics</label><br> <br> <input
+				type="checkbox" name="course"> <label for="cs3">Electrical</label><br>
+			<br> <input type="checkbox" name="course"> <label
+				for="cs4">Information Science</label><br> <br> <input
+				type="checkbox" name="course"> <label for="cs5">Embedded
+				System Design</label><br> <br>
+			<!-- Drop Down List  -->
+			<p>Please Select Your Country:</p>
+
+			<label for="country">Your Country:</label> <select name="country">
+				<option value="one">Afghanistan</option>
+				<option value="two">Albania</option>
+				<option value="three">Brazil</option>
+				<option value="four">China</option>
+				<option value="five">Canada</option>
+				<option value="six">India</option>
+				<option value="seven">Indonesia</option>
+				<option value="eight">Iraq</option>
+				<option value="nine">Mexico</option>
+				<option value="ten">Oman</option>
+				<option value="eleven">Pakistan</option>
+				<option value="twelve">USA</option>
+				<option value="thirteen">Poland</option>
+				<option value="fourteen">Syria</option>
+				<option value="fifteen">Srilanka</option>
+				<option value="sixteen">South Afrika</option>
+				<option value="seventeen">Austrelia</option>
+				<option value="eighteen">Bulgeria</option>
+			</select> <br> <br> <br> <input type="submit" value="Submit">
+			<br>
+
+		</form>
+	</div>
+</body>
+</html>
